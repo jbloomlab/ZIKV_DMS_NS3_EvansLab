@@ -1,8 +1,8 @@
-2023-10-25 10:08:36,061 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2023-10-25 11:28:10,327 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 10:08:36,062 - INFO - Progress is being logged to results/tile_1/logoplots/virus.log
-2023-10-25 10:08:36,098 - INFO - Version information:
-	Time and date: Wed Oct 25 10:08:36 2023
+2023-10-25 11:28:10,327 - INFO - Progress is being logged to results/tile_1/logoplots/virus.log
+2023-10-25 11:28:10,365 - INFO - Version information:
+	Time and date: Wed Oct 25 11:28:10 2023
 	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
 	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.135
 	umi_tools version: 1.1.4
 
-2023-10-25 10:08:36,098 - INFO - Parsed the following arguments:
+2023-10-25 11:28:10,366 - INFO - Parsed the following arguments:
 	outdir = results/tile_1/logoplots
 	ncpus = -1
 	use_existing = no
@@ -54,13 +54,13 @@
 	ignore_extracols = no
 	sepline = yes
 
-2023-10-25 10:08:36,099 - INFO - Reading muteffects from file results/tile_1/muteffects/virus_muteffects.csv...
-2023-10-25 10:08:36,107 - INFO - Read data for 103 sites.
+2023-10-25 11:28:10,367 - INFO - Reading muteffects from file results/tile_1/muteffects/virus_muteffects.csv...
+2023-10-25 11:28:10,375 - INFO - Read data for 103 sites.
 
-2023-10-25 10:08:36,125 - INFO - Reading overlay for wildtype from results/tile_1/logoplots/wt_overlay.csv...
-2023-10-25 10:08:36,129 - INFO - Read overlay for 103 sites.
+2023-10-25 11:28:10,395 - INFO - Reading overlay for wildtype from results/tile_1/logoplots/wt_overlay.csv...
+2023-10-25 11:28:10,399 - INFO - Read overlay for 103 sites.
 
-2023-10-25 10:08:36,129 - INFO - Making logo plot results/tile_1/logoplots/virus_muteffects.pdf...
-2023-10-25 10:08:37,675 - INFO - Successfully created logo plot.
+2023-10-25 11:28:10,399 - INFO - Making logo plot results/tile_1/logoplots/virus_muteffects.pdf...
+2023-10-25 11:28:12,021 - INFO - Successfully created logo plot.
 
-2023-10-25 10:08:37,675 - INFO - Successful completion of dms2_logoplot
+2023-10-25 11:28:12,021 - INFO - Successful completion of dms2_logoplot

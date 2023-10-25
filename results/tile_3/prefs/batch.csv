@@ -1,4 +1,3 @@
 name,selection,library,pre,post,date,errpre,errpost
 lib1-virus-231024,virus,lib1,lib1-plasmid-231024,lib1-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
 lib2-virus-231024,virus,lib2,lib2-plasmid-231024,lib2-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
-lib3-virus-231024,virus,lib3,lib3-plasmid-231024,lib3-virus-231024,231024,wt-plasmid-231024,wt-virus-231024

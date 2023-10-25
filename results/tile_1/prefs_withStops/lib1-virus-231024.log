@@ -1,8 +1,8 @@
-2023-10-25 10:08:44,819 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2023-10-25 11:28:19,462 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 10:08:44,819 - INFO - Progress is being logged to results/tile_1/prefs_withStops/lib1-virus-231024.log
-2023-10-25 10:08:44,856 - INFO - Version information:
-	Time and date: Wed Oct 25 10:08:44 2023
+2023-10-25 11:28:19,462 - INFO - Progress is being logged to results/tile_1/prefs_withStops/lib1-virus-231024.log
+2023-10-25 11:28:19,499 - INFO - Version information:
+	Time and date: Wed Oct 25 11:28:19 2023
 	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
 	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.135
 	umi_tools version: 1.1.4
 
-2023-10-25 10:08:44,856 - INFO - Parsed the following arguments:
+2023-10-25 11:28:19,499 - INFO - Parsed the following arguments:
 	outdir = results/tile_1/prefs_withStops
 	ncpus = 12
 	use_existing = no
@@ -38,116 +38,116 @@
 	name = lib1-virus-231024
 	err = ['wt-plasmid-231024', 'wt-virus-231024']
 
-2023-10-25 10:08:44,858 - INFO - Reading pre-selection counts from results/tile_1/renumbered_codoncounts/lib1-plasmid-231024_codoncounts.csv
-2023-10-25 10:08:44,864 - INFO - Reading post-selection counts from results/tile_1/renumbered_codoncounts/lib1-virus-231024_codoncounts.csv
-2023-10-25 10:08:44,868 - INFO - Reading pre-selection error-control counts from pre
-2023-10-25 10:08:44,872 - INFO - Reading post-selection error-control counts from post
-2023-10-25 10:08:44,882 - INFO - Read counts for 103 sites.
-2023-10-25 10:08:44,882 - INFO - Here are sites and wildtype identities:
-	0	CGG
-	1	AGC
-	2	TGG
-	3	CCC
-	4	CCT
-	5	AGT
-	6	GAA
-	7	GTT
-	8	CTC
-	9	ACA
-	10	GCC
-	11	GTT
-	12	GGC
-	13	CTG
-	14	ATA
-	15	TGT
-	16	GCA
-	17	CTG
-	18	GCC
-	19	GGA
-	20	GGG
-	21	TTT
-	22	GCC
-	23	AAG
-	24	GCA
-	25	GAC
-	26	ATT
-	27	GAG
-	28	ATG
-	29	GCT
-	30	GGA
-	31	CCC
-	32	ATG
-	33	GCT
-	34	GCA
-	35	GTA
-	36	GGC
-	37	TTG
-	38	CTA
-	39	ATT
-	40	GTC
-	41	AGC
-	42	TAT
-	43	GTG
-	44	GTC
-	45	TCG
-	46	GGA
-	47	AAG
-	48	AGT
-	49	GTG
-	50	GAC
-	51	ATG
-	52	TAC
-	53	ATT
-	54	GAA
-	55	AGA
-	56	GCA
-	57	GGT
-	58	GAC
-	59	ATC
-	60	ACA
-	61	TGG
-	62	GAA
-	63	AAG
-	64	GAC
-	65	GCG
-	66	GAA
-	67	GTC
-	68	ACT
-	69	GGA
-	70	AAC
-	71	AGT
-	72	CCT
-	73	CGG
-	74	CTT
-	75	GAC
-	76	GTG
-	77	GCA
-	78	CTG
-	79	GAT
-	80	GAG
-	81	AGT
-	82	GGT
-	83	GAT
-	84	TTC
-	85	TCC
-	86	TTG
-	87	GTA
-	88	GAG
-	89	GAA
-	90	GAT
-	91	GGT
-	92	CCA
-	93	CCC
-	94	ATG
-	95	AGA
-	96	GAG
-	97	ATC
-	98	ATA
-	99	CTC
-	100	AAG
-	101	GTG
-	102	GTC
+2023-10-25 11:28:19,501 - INFO - Reading pre-selection counts from results/tile_1/renumbered_codoncounts/lib1-plasmid-231024_codoncounts.csv
+2023-10-25 11:28:19,508 - INFO - Reading post-selection counts from results/tile_1/renumbered_codoncounts/lib1-virus-231024_codoncounts.csv
+2023-10-25 11:28:19,513 - INFO - Reading pre-selection error-control counts from pre
+2023-10-25 11:28:19,517 - INFO - Reading post-selection error-control counts from post
+2023-10-25 11:28:19,528 - INFO - Read counts for 103 sites.
+2023-10-25 11:28:19,528 - INFO - Here are sites and wildtype identities:
+	1	CGG
+	2	AGC
+	3	TGG
+	4	CCC
+	5	CCT
+	6	AGT
+	7	GAA
+	8	GTT
+	9	CTC
+	10	ACA
+	11	GCC
+	12	GTT
+	13	GGC
+	14	CTG
+	15	ATA
+	16	TGT
+	17	GCA
+	18	CTG
+	19	GCC
+	20	GGA
+	21	GGG
+	22	TTT
+	23	GCC
+	24	AAG
+	25	GCA
+	26	GAC
+	27	ATT
+	28	GAG
+	29	ATG
+	30	GCT
+	31	GGA
+	32	CCC
+	33	ATG
+	34	GCT
+	35	GCA
+	36	GTA
+	37	GGC
+	38	TTG
+	39	CTA
+	40	ATT
+	41	GTC
+	42	AGC
+	43	TAT
+	44	GTG
+	45	GTC
+	46	TCG
+	47	GGA
+	48	AAG
+	49	AGT
+	50	GTG
+	51	GAC
+	52	ATG
+	53	TAC
+	54	ATT
+	55	GAA
+	56	AGA
+	57	GCA
+	58	GGT
+	59	GAC
+	60	ATC
+	61	ACA
+	62	TGG
+	63	GAA
+	64	AAG
+	65	GAC
+	66	GCG
+	67	GAA
+	68	GTC
+	69	ACT
+	70	GGA
+	71	AAC
+	72	AGT
+	73	CCT
+	74	CGG
+	75	CTT
+	76	GAC
+	77	GTG
+	78	GCA
+	79	CTG
+	80	GAT
+	81	GAG
+	82	AGT
+	83	GGT
+	84	GAT
+	85	TTC
+	86	TCC
+	87	TTG
+	88	GTA
+	89	GAG
+	90	GAA
+	91	GAT
+	92	GGT
+	93	CCA
+	94	CCC
+	95	ATG
+	96	AGA
+	97	GAG
+	98	ATC
+	99	ATA
+	100	CTC
+	101	AAG
+	102	GTG
+	103	GTC
 
-2023-10-25 10:08:44,882 - INFO - Computing preferences as normalized enrichment ratios...
-2023-10-25 10:08:45,195 - INFO - Writing preferences to results/tile_1/prefs_withStops/lib1-virus-231024_prefs.csv
-2023-10-25 10:08:45,201 - INFO - Successful completion of dms2_prefs
+2023-10-25 11:28:19,528 - INFO - Computing preferences as normalized enrichment ratios...
+2023-10-25 11:28:19,842 - INFO - Writing preferences to results/tile_1/prefs_withStops/lib1-virus-231024_prefs.csv
+2023-10-25 11:28:19,848 - INFO - Successful completion of dms2_prefs

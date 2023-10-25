@@ -1,8 +1,8 @@
-2023-10-25 10:03:58,893 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2023-10-25 11:25:18,815 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 10:03:58,893 - INFO - Progress is being logged to results/tile_2/codoncounts/lib1-virus-231024.log
-2023-10-25 10:03:58,931 - INFO - Version information:
-	Time and date: Wed Oct 25 10:03:58 2023
+2023-10-25 11:25:18,815 - INFO - Progress is being logged to results/tile_2/codoncounts/lib1-virus-231024.log
+2023-10-25 11:25:18,850 - INFO - Version information:
+	Time and date: Wed Oct 25 11:25:18 2023
 	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
 	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.135
 	umi_tools version: 1.1.4
 
-2023-10-25 10:03:58,931 - INFO - Parsed the following arguments:
+2023-10-25 11:25:18,850 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,19 +49,19 @@
 	name = lib1-virus-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_1_S9_R1_001.fastq.gz']
 
-2023-10-25 10:03:58,946 - INFO - Read refseq of 309 codons from data/tile_2_amplicon.fasta
-2023-10-25 10:03:59,119 - INFO - Reads are in these FASTQ pairs:
+2023-10-25 11:25:18,862 - INFO - Read refseq of 309 codons from data/tile_2_amplicon.fasta
+2023-10-25 11:25:18,863 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_1_S9_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_1_S9_R2_001.fastq.gz
 
-2023-10-25 10:03:59,119 - INFO - Now parsing read pairs...
-2023-10-25 10:04:04,831 - INFO - Reads parsed so far: 500000
-2023-10-25 10:04:09,244 - INFO - Parsed 949426 reads, found 394021 unique barcodes.
-2023-10-25 10:04:09,247 - INFO - Summary stats on reads:
+2023-10-25 11:25:18,863 - INFO - Now parsing read pairs...
+2023-10-25 11:25:24,359 - INFO - Reads parsed so far: 500000
+2023-10-25 11:25:28,686 - INFO - Parsed 949426 reads, found 394021 unique barcodes.
+2023-10-25 11:25:28,689 - INFO - Summary stats on reads:
   total  fail filter  low Q barcode
  949426        59522          87342
-2023-10-25 10:04:09,247 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_readstats.csv
+2023-10-25 11:25:28,689 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_readstats.csv
 
-2023-10-25 10:04:09,336 - INFO - Number of reads per barcode:
+2023-10-25 11:25:28,782 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            172889
@@ -78,15 +78,15 @@ number of reads
 12                                3
 13                                3
 38                                1
-2023-10-25 10:04:09,336 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_readsperbc.csv
+2023-10-25 11:25:28,782 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_readsperbc.csv
 
-2023-10-25 10:04:09,339 - INFO - Examining the 394021 barcodes to build and align subamplicons...
-2023-10-25 10:04:18,338 - INFO - Barcodes examined so far: 200000
-2023-10-25 10:04:23,930 - INFO - Examined all barcodes. Summary stats:
+2023-10-25 11:25:28,784 - INFO - Examining the 394021 barcodes to build and align subamplicons...
+2023-10-25 11:25:37,797 - INFO - Barcodes examined so far: 200000
+2023-10-25 11:25:43,369 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  394021         172889          14884   206248
-2023-10-25 10:04:23,930 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_bcstats.csv
+2023-10-25 11:25:43,370 - INFO - Writing these stats to results/tile_2/codoncounts/lib1-virus-231024_bcstats.csv
 
-2023-10-25 10:04:23,940 - INFO - Writing the counts of each codon identity at each site to results/tile_2/codoncounts/lib1-virus-231024_codoncounts.csv
+2023-10-25 11:25:43,380 - INFO - Writing the counts of each codon identity at each site to results/tile_2/codoncounts/lib1-virus-231024_codoncounts.csv
 
-2023-10-25 10:04:23,950 - INFO - Successful completion of dms2_bcsubamp
+2023-10-25 11:25:43,390 - INFO - Successful completion of dms2_bcsubamp
