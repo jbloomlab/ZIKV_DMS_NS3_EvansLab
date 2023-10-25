@@ -1,0 +1,9 @@
+name,R1
+lib1-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_1_S9_R1_001.fastq.gz
+lib2-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_2_S10_R1_001.fastq.gz
+lib3-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_3_S11_R1_001.fastq.gz
+wt-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_WT_S12_R1_001.fastq.gz
+lib1-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_Lib_1_S13_R1_001.fastq.gz
+lib2-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_Lib_2_S14_R1_001.fastq.gz
+lib3-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_Lib_3_S15_R1_001.fastq.gz
+wt-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_WT_S16_R1_001.fastq.gz

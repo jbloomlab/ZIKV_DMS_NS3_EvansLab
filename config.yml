@@ -1,0 +1,13 @@
+max_cpus: 72  # max CPUs to use for any job
+
+# specify information for each tile
+tiles:
+  tile_1:
+    errpre: wt-plasmid-231024  # pre-selection error control
+    site_number_offset: -1  # add to 1, 2, ... site numbers when re-numbering
+  tile_2:
+    errpre: wt-plasmid-231024
+    site_number_offset: 103
+  tile_3:
+    errpre: wt-plasmid-231024
+    site_number_offset: 206

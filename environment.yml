@@ -1,0 +1,27 @@
+name: ZIKV_DMS_NS3_EvansLab
+channels:
+  - bioconda
+  - r
+  - conda-forge
+  - defaults
+  - schrodinger
+dependencies:
+  - imagemagick
+  - jupyterlab
+  - mamba
+  - nbdime
+  - nodejs
+  - pandas==0.25.3
+  - pip
+  - python==3.8.13
+  - pip:
+    - dms_tools2==2.6.10
+    - dmslogo==0.6.2
+    - snakemake==6.5.2
+    - tabulate==0.8.10
+    - altair
+    - vega_datasets
+    - dms_variants
+    - scipy==1.6.0
+    - numpy==1.19.5
+    - PyPDF2<3.0

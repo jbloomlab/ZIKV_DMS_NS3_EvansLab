@@ -1,0 +1,66 @@
+2023-10-25 10:05:28,593 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+
+2023-10-25 10:05:28,593 - INFO - Progress is being logged to results/tile_2/logoplots_withStops/virus.log
+2023-10-25 10:05:28,630 - INFO - Version information:
+	Time and date: Wed Oct 25 10:05:28 2023
+	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
+	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+	dms_tools2 version: 2.6.10
+	Bio version: 1.79
+	pandas version: 0.25.3
+	numpy version: 1.19.5
+	IPython version: 8.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.2.2
+	plotnine version: 0.6.0
+	natsort version: 8.2.0
+	pystan version: 2.19.1.1
+	scipy version: 1.6.0
+	seaborn version: 0.12.2
+	phydmslib version: 2.4.1
+	statsmodels version: 0.11.1
+	rpy2 cannot be imported
+	regex version: 2.5.135
+	umi_tools version: 1.1.4
+
+2023-10-25 10:05:28,630 - INFO - Parsed the following arguments:
+	outdir = results/tile_2/logoplots_withStops
+	ncpus = -1
+	use_existing = no
+	prefs = None
+	diffsel = None
+	fracsurvive = None
+	diffprefs = None
+	muteffects = results/tile_2/muteffects_withStops/virus_muteffects.csv
+	name = virus
+	nperline = 56
+	numberevery = 10
+	excludestop = no
+	stringency = 1
+	restrictdiffsel = all
+	diffselrange = None
+	muteffectrange = None
+	fracsurvivemax = None
+	sortsites = yes
+	mapmetric = functionalgroup
+	colormap = jet
+	overlay1 = ['results/tile_2/logoplots/wt_overlay.csv', 'wildtype', 'wildtype']
+	overlay2 = None
+	overlay3 = None
+	underlay = no
+	scalebar = ['6.64', '100-fold change (log scale)']
+	overlaycolormap = jet
+	letterheight = 1
+	ignore_extracols = no
+	sepline = yes
+
+2023-10-25 10:05:28,631 - INFO - Reading muteffects from file results/tile_2/muteffects_withStops/virus_muteffects.csv...
+2023-10-25 10:05:28,639 - INFO - Read data for 103 sites.
+
+2023-10-25 10:05:28,657 - INFO - Reading overlay for wildtype from results/tile_2/logoplots/wt_overlay.csv...
+2023-10-25 10:05:28,661 - INFO - Read overlay for 103 sites.
+
+2023-10-25 10:05:28,661 - INFO - Making logo plot results/tile_2/logoplots_withStops/virus_muteffects.pdf...
+2023-10-25 10:05:30,296 - INFO - Successfully created logo plot.
+
+2023-10-25 10:05:30,296 - INFO - Successful completion of dms2_logoplot

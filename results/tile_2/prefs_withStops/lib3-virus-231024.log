@@ -1,0 +1,153 @@
+2023-10-25 10:05:17,920 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+
+2023-10-25 10:05:17,920 - INFO - Progress is being logged to results/tile_2/prefs_withStops/lib3-virus-231024.log
+2023-10-25 10:05:17,957 - INFO - Version information:
+	Time and date: Wed Oct 25 10:05:17 2023
+	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
+	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+	dms_tools2 version: 2.6.10
+	Bio version: 1.79
+	pandas version: 0.25.3
+	numpy version: 1.19.5
+	IPython version: 8.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.2.2
+	plotnine version: 0.6.0
+	natsort version: 8.2.0
+	pystan version: 2.19.1.1
+	scipy version: 1.6.0
+	seaborn version: 0.12.2
+	phydmslib version: 2.4.1
+	statsmodels version: 0.11.1
+	rpy2 cannot be imported
+	regex version: 2.5.135
+	umi_tools version: 1.1.4
+
+2023-10-25 10:05:17,957 - INFO - Parsed the following arguments:
+	outdir = results/tile_2/prefs_withStops
+	ncpus = 12
+	use_existing = no
+	method = ratio
+	indir = results/tile_2/renumbered_codoncounts
+	chartype = codon_to_aa
+	excludestop = no
+	conc = [1.0, 1.0, 1.0]
+	pseudocount = 1
+	pre = lib3-plasmid-231024
+	post = lib3-virus-231024
+	name = lib3-virus-231024
+	err = ['wt-plasmid-231024', 'wt-virus-231024']
+
+2023-10-25 10:05:17,959 - INFO - Reading pre-selection counts from results/tile_2/renumbered_codoncounts/lib3-plasmid-231024_codoncounts.csv
+2023-10-25 10:05:17,965 - INFO - Reading post-selection counts from results/tile_2/renumbered_codoncounts/lib3-virus-231024_codoncounts.csv
+2023-10-25 10:05:17,970 - INFO - Reading pre-selection error-control counts from pre
+2023-10-25 10:05:17,974 - INFO - Reading post-selection error-control counts from post
+2023-10-25 10:05:17,985 - INFO - Read counts for 103 sites.
+2023-10-25 10:05:17,985 - INFO - Here are sites and wildtype identities:
+	104	CTG
+	105	ATG
+	106	GCC
+	107	ATC
+	108	TGT
+	109	GGC
+	110	ATG
+	111	AAC
+	112	CCA
+	113	ATA
+	114	GCT
+	115	ATA
+	116	CCT
+	117	TTT
+	118	GCT
+	119	GCA
+	120	GGA
+	121	GCG
+	122	TGG
+	123	TAT
+	124	GTG
+	125	TAT
+	126	GTG
+	127	AAG
+	128	ACT
+	129	GGG
+	130	AAA
+	131	AGG
+	132	AGT
+	133	GGC
+	134	GCC
+	135	CTC
+	136	TGG
+	137	GAC
+	138	GTG
+	139	CCT
+	140	GCT
+	141	CCC
+	142	AAA
+	143	GAA
+	144	GTG
+	145	AAG
+	146	AAA
+	147	GGA
+	148	GAG
+	149	ACC
+	150	ACA
+	151	GAT
+	152	GGA
+	153	GTG
+	154	TAC
+	155	AGA
+	156	GTG
+	157	ATG
+	158	ACT
+	159	CGC
+	160	AGA
+	161	CTG
+	162	CTA
+	163	GGT
+	164	TCA
+	165	ACA
+	166	CAG
+	167	GTT
+	168	GGA
+	169	GTG
+	170	GGA
+	171	GTC
+	172	ATG
+	173	CAA
+	174	GAG
+	175	GGA
+	176	GTC
+	177	TTC
+	178	CAC
+	179	ACC
+	180	ATG
+	181	TGG
+	182	CAC
+	183	GTT
+	184	ACA
+	185	AAA
+	186	GGA
+	187	GCC
+	188	GCA
+	189	CTG
+	190	AGG
+	191	AGC
+	192	GGT
+	193	GAG
+	194	GGA
+	195	AGA
+	196	CTT
+	197	GAT
+	198	CCA
+	199	TAC
+	200	TGG
+	201	GGG
+	202	GAT
+	203	GTC
+	204	AAG
+	205	CAG
+	206	GAC
+
+2023-10-25 10:05:17,985 - INFO - Computing preferences as normalized enrichment ratios...
+2023-10-25 10:05:18,301 - INFO - Writing preferences to results/tile_2/prefs_withStops/lib3-virus-231024_prefs.csv
+2023-10-25 10:05:18,309 - INFO - Successful completion of dms2_prefs

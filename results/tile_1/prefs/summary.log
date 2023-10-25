@@ -1,0 +1,56 @@
+2023-10-25 10:08:22,316 - INFO - Beginning execution of dms2_batch_prefs in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+
+2023-10-25 10:08:22,316 - INFO - Progress is being logged to results/tile_1/prefs/summary.log
+2023-10-25 10:08:22,357 - INFO - Version information:
+	Time and date: Wed Oct 25 10:08:22 2023
+	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
+	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+	dms_tools2 version: 2.6.10
+	Bio version: 1.79
+	pandas version: 0.25.3
+	numpy version: 1.19.5
+	IPython version: 8.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.2.2
+	plotnine version: 0.6.0
+	natsort version: 8.2.0
+	pystan version: 2.19.1.1
+	scipy version: 1.6.0
+	seaborn version: 0.12.2
+	phydmslib version: 2.4.1
+	statsmodels version: 0.11.1
+	rpy2 cannot be imported
+	regex version: 2.5.135
+	umi_tools version: 1.1.4
+
+2023-10-25 10:08:22,357 - INFO - Parsed the following arguments:
+	outdir = results/tile_1/prefs
+	ncpus = 72
+	use_existing = no
+	method = ratio
+	indir = results/tile_1/renumbered_codoncounts
+	chartype = codon_to_aa
+	excludestop = yes
+	conc = [1, 1, 1]
+	pseudocount = 1
+	batchfile = results/tile_1/prefs/batch.csv
+	summaryprefix = summary
+	no_corr = False
+	no_avg = False
+
+2023-10-25 10:08:22,359 - INFO - Parsing info from results/tile_1/prefs/batch.csv
+2023-10-25 10:08:22,375 - INFO - Read the following sample information:
+name,selection,library,pre,post,date,errpre,errpost
+lib1-virus-231024,virus,lib1,lib1-plasmid-231024,lib1-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
+lib2-virus-231024,virus,lib2,lib2-plasmid-231024,lib2-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
+lib3-virus-231024,virus,lib3,lib3-plasmid-231024,lib3-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
+
+
+2023-10-25 10:08:22,375 - INFO - Running dms2_prefs on all samples...
+2023-10-25 10:08:25,890 - INFO - Completed runs of dms2_prefs.
+
+2023-10-25 10:08:25,898 - INFO - Plotting correlations to results/tile_1/prefs/summary_prefscorr.pdf
+
+2023-10-25 10:08:26,770 - INFO - Writing average preferences to results/tile_1/prefs/summary_avgprefs.csv
+
+2023-10-25 10:08:26,787 - INFO - Successful completion of dms2_batch_prefs
