@@ -1,2 +1,2 @@
 input,sitemap,name,metric,metric_name,structure,included_chains,excluded_chains,title,exclude_amino_acids
-tests/ZIKV-NS2B-NS3-DMS/input/ZIKV_NS2B_NS3_DMS.csv,tests/ZIKV-NS2B-NS3-DMS/sitemap/sitemap.csv,ZIKV NS2B-NS3,effect,Effect,5GJ4,polymer,none,ZIKV NS2B-NS3 DMS,*
+data/dms-viz/input/ZIKV_NS2B_NS3_DMS.csv,data/dms-viz/sitemap/sitemap.csv,ZIKV NS2B-NS3,log2effect,Log2(Effect),5GJ4,polymer,none,ZIKV NS2B-NS3 DMS,*
