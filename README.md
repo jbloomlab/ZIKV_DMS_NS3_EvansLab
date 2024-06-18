@@ -1,11 +1,14 @@
 # Deep mutational scanning of ZIKV NS3 protein
 Experiments by Blake Richardson and Matt Evans.
-Analysis by Caroline Kikawa, adapting pipeline by Jesse Bloom and David Bacsik.
+Analysis by Caroline Kikawa, adapting a pipeline by Jesse Bloom and David Bacsik.
+
+## Analysis pipeline overview
+This `Snakemake` takes input deep sequencing reads and processes them using the `dms_tools2` package written by the Bloom lab. For this project, a deep mutational scanning library was created in discrete 'tiles' across the NS2B/NS3 protein from Zika virus. A pool of virus particles expressing these variants was selected by passaging on cells. The pre-selection counts of each variant (e.g., their frequency in the plasmid library) were compared to their counts in the cell-passaging selected libraries. The *amino acid preferences* or `prefs` are the result of this comparison. We then calculate *mutational effects* or `muteffects` for each variant by taking the log ratio of the variant mutation versus wild-type.
 
 ## Results
 For a summary of the results, see [results/summary/](results/summary/), which has Markdown summaries for the analysis of each tile (e.g., [results/summary/dms_tile_1_analysis.md](results/summary/dms_tile_1_analysis.md), etc).
 
-Other results are placed in [./results/](results), although not all files are tracked in the GitHub repo.
+Other results are placed in [./results/](results), although not all files are tracked in the GitHub repo. Again, these files are sub-divided by tile and analysis (e.g., [results/tile_1/prefs](results/tile_1/prefs), [results/tile_1/muteffects](results/tile_1/muteffects), etc).
 
 ## Running analysis
 First activate the *ZIKV_DMS_NS5_EvansLab* [conda](https://docs.conda.io/projects/conda/en/latest/index.html) environment for the analysis.
