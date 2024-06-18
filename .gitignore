@@ -1,0 +1,10 @@
+t*
+_*
+*.out
+
+data/.*
+results/*/.*
+
+.*
+!.gitignore
+
