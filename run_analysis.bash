@@ -1,7 +1,23 @@
 #!/bin/bash
 
-# activate conda: https://github.com/conda/conda/issues/7126
-. /fh/fast/bloom_j/software/miniconda3/etc/profile.d/conda.sh
-conda activate ZIKV_DMS_NS3_EvansLab
+# stop on errors
+set -e
 
-snakemake -j 72 --keep-incomplete
+echo "Running snakemake..."
+
+# Remove tmp/ dir and slurm files
+snakemake clean --cores 1
+
+# Make fresh tmp/ dir 
+mkdir -p tmp
+
+# Run the main analysis on slurm cluster
+snakemake \
+    --use-conda \
+    --conda-prefix env/ \
+    -j 72 \
+    --latency-wait 60 \
+    --cluster-config cluster.yml \
+    --cluster "sbatch -p {cluster.partition} -c {cluster.cpus} -t {cluster.time} -J {cluster.name} -o ./tmp/slurm-%x.%j.out" \
+
+echo "Run of snakemake complete."
