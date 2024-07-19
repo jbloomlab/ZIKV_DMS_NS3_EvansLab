@@ -1,8 +1,8 @@
-2024-07-18 16:54:26,971 - INFO - Beginning execution of dms2_batch_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 10:35:09,117 - INFO - Beginning execution of dms2_batch_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-18 16:54:26,971 - INFO - Progress is being logged to results/tile_2/codoncounts/summary.log
-2024-07-18 16:54:27,009 - INFO - Version information:
-	Time and date: Thu Jul 18 16:54:26 2024
+2024-07-19 10:35:09,117 - INFO - Progress is being logged to results/tile_2/codoncounts/summary.log
+2024-07-19 10:35:09,154 - INFO - Version information:
+	Time and date: Fri Jul 19 10:35:09 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-18 16:54:27,010 - INFO - Parsed the following arguments:
+2024-07-19 10:35:09,154 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/codoncounts
 	ncpus = 4
 	use_existing = no
@@ -49,8 +49,8 @@
 	batchfile = results/tile_2/codoncounts/batch.csv
 	summaryprefix = summary
 
-2024-07-18 16:54:27,010 - INFO - Parsing sample info from results/tile_2/codoncounts/batch.csv
-2024-07-18 16:54:27,016 - INFO - Read the following sample information:
+2024-07-19 10:35:09,154 - INFO - Parsing sample info from results/tile_2/codoncounts/batch.csv
+2024-07-19 10:35:09,161 - INFO - Read the following sample information:
 name,R1
 lib1-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_1_S9_R1_001.fastq.gz
 lib2-virus-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_2_Lib_2_S10_R1_001.fastq.gz
@@ -62,16 +62,16 @@ lib3-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7
 wt-plasmid-231024,/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_WT_S16_R1_001.fastq.gz
 
 
-2024-07-18 16:54:27,025 - INFO - Running dms2_bcsubamp on all samples using 4 CPUs...
-2024-07-18 16:55:26,211 - INFO - Completed runs of dms2_bcsubamp.
+2024-07-19 10:35:09,169 - INFO - Running dms2_bcsubamp on all samples using 4 CPUs...
+2024-07-19 10:36:10,130 - INFO - Completed runs of dms2_bcsubamp.
 
-2024-07-18 16:55:26,224 - INFO - Plotting read stats to results/tile_2/codoncounts/summary_readstats.pdf
-2024-07-18 16:55:26,673 - INFO - Plotting barcode stats to results/tile_2/codoncounts/summary_bcstats.pdf
-2024-07-18 16:55:26,931 - INFO - Plotting reads per barcode to results/tile_2/codoncounts/summary_readsperbc.pdf
-2024-07-18 16:55:27,959 - INFO - Plotting count depth to results/tile_2/codoncounts/summary_depth.pdf
-2024-07-18 16:55:28,856 - INFO - Plotting mutation frequencies to results/tile_2/codoncounts/summary_mutfreq.pdf
-2024-07-18 16:55:30,232 - INFO - Plotting average frequencies of codon mutation types to results/tile_2/codoncounts/summary_codonmuttypes.pdf, writing the data to results/tile_2/codoncounts/summary_codonmuttypes.csv
-2024-07-18 16:55:31,200 - INFO - Plotting average frequencies of nucleotide changes per codon mutation to results/tile_2/codoncounts/summary_codonntchanges.pdf
-2024-07-18 16:55:32,111 - INFO - Plotting frequencies of nucleotide changes in 1-nucleotide mutations to results/tile_2/codoncounts/summary_singlentchanges.pdf
-2024-07-18 16:55:33,238 - INFO - Plotting fraction of mutations seen less than some number of times to results/tile_2/codoncounts/summary_cumulmutcounts.pdf
-2024-07-18 16:55:34,815 - INFO - Successful completion of dms2_batch_bcsubamp
+2024-07-19 10:36:10,138 - INFO - Plotting read stats to results/tile_2/codoncounts/summary_readstats.pdf
+2024-07-19 10:36:10,703 - INFO - Plotting barcode stats to results/tile_2/codoncounts/summary_bcstats.pdf
+2024-07-19 10:36:10,961 - INFO - Plotting reads per barcode to results/tile_2/codoncounts/summary_readsperbc.pdf
+2024-07-19 10:36:12,008 - INFO - Plotting count depth to results/tile_2/codoncounts/summary_depth.pdf
+2024-07-19 10:36:12,977 - INFO - Plotting mutation frequencies to results/tile_2/codoncounts/summary_mutfreq.pdf
+2024-07-19 10:36:14,424 - INFO - Plotting average frequencies of codon mutation types to results/tile_2/codoncounts/summary_codonmuttypes.pdf, writing the data to results/tile_2/codoncounts/summary_codonmuttypes.csv
+2024-07-19 10:36:15,332 - INFO - Plotting average frequencies of nucleotide changes per codon mutation to results/tile_2/codoncounts/summary_codonntchanges.pdf
+2024-07-19 10:36:16,239 - INFO - Plotting frequencies of nucleotide changes in 1-nucleotide mutations to results/tile_2/codoncounts/summary_singlentchanges.pdf
+2024-07-19 10:36:17,365 - INFO - Plotting fraction of mutations seen less than some number of times to results/tile_2/codoncounts/summary_cumulmutcounts.pdf
+2024-07-19 10:36:19,040 - INFO - Successful completion of dms2_batch_bcsubamp

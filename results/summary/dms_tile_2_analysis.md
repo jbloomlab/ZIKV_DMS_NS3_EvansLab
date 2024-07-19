@@ -1,7 +1,7 @@
 ```python
 
 ######## snakemake preamble start (automatically inserted, do not edit) ########
-import sys; sys.path.extend(['/home/whannon/miniforge3/envs/ZIKV_DMS_NS3_EvansLab/lib/python3.8/site-packages', '/home/whannon/.cache/snakemake/snakemake/source-cache/runtime-cache/tmpmk1ogfd1/file/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab', '/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab']); import pickle; snakemake = pickle.loads(b'\x80\x04\x95\x17\x06\x00\x00\x00\x00\x00\x00\x8c\x10snakemake.script\x94\x8c\tSnakemake\x94\x93\x94)\x81\x94}\x94(\x8c\x05input\x94\x8c\x0csnakemake.io\x94\x8c\nInputFiles\x94\x93\x94)\x81\x94(\x8c\x1adata/tile_2_amplicon.fasta\x94\x8c&data/tile_2_subamplicon_alignspecs.txt\x94\x8c\x1adata/tile_2_samplelist.csv\x94e}\x94(\x8c\x06_names\x94}\x94(\x8c\x08amplicon\x94K\x00N\x86\x94\x8c\nalignspecs\x94K\x01N\x86\x94\x8c\nsamplelist\x94K\x02N\x86\x94u\x8c\x12_allowed_overrides\x94]\x94(\x8c\x05index\x94\x8c\x04sort\x94eh\x18\x8c\tfunctools\x94\x8c\x07partial\x94\x93\x94h\x06\x8c\x19Namedlist._used_attribute\x94\x93\x94\x85\x94R\x94(h\x1e)}\x94\x8c\x05_name\x94h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh\x10h\nh\x12h\x0bh\x14h\x0cub\x8c\x06output\x94h\x06\x8c\x0bOutputFiles\x94\x93\x94)\x81\x94\x8c\x0eresults/tile_2\x94a}\x94(h\x0e}\x94\x8c\nresultsdir\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh/h,ub\x8c\x06params\x94h\x06\x8c\x06Params\x94\x93\x94)\x81\x94(\x8c\x11wt-plasmid-231024\x94Kge}\x94(h\x0e}\x94(\x8c\x06errpre\x94K\x00N\x86\x94\x8c\x12site_number_offset\x94K\x01N\x86\x94uh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bhAh>hCKgub\x8c\twildcards\x94h\x06\x8c\tWildcards\x94\x93\x94)\x81\x94\x8c\x06tile_2\x94a}\x94(h\x0e}\x94\x8c\x04tile\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94b\x8c\x04tile\x94hRub\x8c\x07threads\x94K\x04\x8c\tresources\x94h\x06\x8c\tResources\x94\x93\x94)\x81\x94(K\x04K\x01\x8c\x15/loc/scratch/53973485\x94e}\x94(h\x0e}\x94(\x8c\x06_cores\x94K\x00N\x86\x94\x8c\x06_nodes\x94K\x01N\x86\x94\x8c\x06tmpdir\x94K\x02N\x86\x94uh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bhiK\x04hkK\x01hmhfub\x8c\x03log\x94h\x06\x8c\x03Log\x94\x93\x94)\x81\x94\x8c+results/notebooks/dms_tile_2_analysis.ipynb\x94a}\x94(h\x0e}\x94\x8c\x08notebook\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh\x7fh|ub\x8c\x06config\x94}\x94(\x8c\x08max_cpus\x94KH\x8c\x05tiles\x94}\x94(\x8c\x06tile_1\x94}\x94(\x8c\x06errpre\x94\x8c\x11wt-plasmid-231024\x94\x8c\x12site_number_offset\x94K\x00u\x8c\x06tile_2\x94}\x94(\x8c\x06errpre\x94h>\x8c\x12site_number_offset\x94Kgu\x8c\x06tile_3\x94}\x94(\x8c\x06errpre\x94\x8c\x11wt-plasmid-231024\x94\x8c\x12site_number_offset\x94K\xceuuu\x8c\x04rule\x94\x8c\x11dms_tile_analysis\x94\x8c\x0fbench_iteration\x94N\x8c\tscriptdir\x94\x8cK/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab\x94ub.'); from snakemake.logging import logger; logger.printshellcmds = False; import os; os.chdir(r'/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab');
+import sys; sys.path.extend(['/home/whannon/miniforge3/envs/ZIKV_DMS_NS3_EvansLab/lib/python3.8/site-packages', '/home/whannon/.cache/snakemake/snakemake/source-cache/runtime-cache/tmp7u0anjs2/file/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab', '/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab']); import pickle; snakemake = pickle.loads(b'\x80\x04\x95\x17\x06\x00\x00\x00\x00\x00\x00\x8c\x10snakemake.script\x94\x8c\tSnakemake\x94\x93\x94)\x81\x94}\x94(\x8c\x05input\x94\x8c\x0csnakemake.io\x94\x8c\nInputFiles\x94\x93\x94)\x81\x94(\x8c\x1adata/tile_2_amplicon.fasta\x94\x8c&data/tile_2_subamplicon_alignspecs.txt\x94\x8c\x1adata/tile_2_samplelist.csv\x94e}\x94(\x8c\x06_names\x94}\x94(\x8c\x08amplicon\x94K\x00N\x86\x94\x8c\nalignspecs\x94K\x01N\x86\x94\x8c\nsamplelist\x94K\x02N\x86\x94u\x8c\x12_allowed_overrides\x94]\x94(\x8c\x05index\x94\x8c\x04sort\x94eh\x18\x8c\tfunctools\x94\x8c\x07partial\x94\x93\x94h\x06\x8c\x19Namedlist._used_attribute\x94\x93\x94\x85\x94R\x94(h\x1e)}\x94\x8c\x05_name\x94h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh\x10h\nh\x12h\x0bh\x14h\x0cub\x8c\x06output\x94h\x06\x8c\x0bOutputFiles\x94\x93\x94)\x81\x94\x8c\x0eresults/tile_2\x94a}\x94(h\x0e}\x94\x8c\nresultsdir\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh/h,ub\x8c\x06params\x94h\x06\x8c\x06Params\x94\x93\x94)\x81\x94(\x8c\x11wt-plasmid-231024\x94Kge}\x94(h\x0e}\x94(\x8c\x06errpre\x94K\x00N\x86\x94\x8c\x12site_number_offset\x94K\x01N\x86\x94uh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bhAh>hCKgub\x8c\twildcards\x94h\x06\x8c\tWildcards\x94\x93\x94)\x81\x94\x8c\x06tile_2\x94a}\x94(h\x0e}\x94\x8c\x04tile\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94b\x8c\x04tile\x94hRub\x8c\x07threads\x94K\x04\x8c\tresources\x94h\x06\x8c\tResources\x94\x93\x94)\x81\x94(K\x04K\x01\x8c\x15/loc/scratch/54435566\x94e}\x94(h\x0e}\x94(\x8c\x06_cores\x94K\x00N\x86\x94\x8c\x06_nodes\x94K\x01N\x86\x94\x8c\x06tmpdir\x94K\x02N\x86\x94uh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bhiK\x04hkK\x01hmhfub\x8c\x03log\x94h\x06\x8c\x03Log\x94\x93\x94)\x81\x94\x8c+results/notebooks/dms_tile_2_analysis.ipynb\x94a}\x94(h\x0e}\x94\x8c\x08notebook\x94K\x00N\x86\x94sh\x16]\x94(h\x18h\x19eh\x18h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x18sNt\x94bh\x19h\x1ch\x1e\x85\x94R\x94(h\x1e)}\x94h"h\x19sNt\x94bh\x7fh|ub\x8c\x06config\x94}\x94(\x8c\x08max_cpus\x94KH\x8c\x05tiles\x94}\x94(\x8c\x06tile_1\x94}\x94(\x8c\x06errpre\x94\x8c\x11wt-plasmid-231024\x94\x8c\x12site_number_offset\x94K\x00u\x8c\x06tile_2\x94}\x94(\x8c\x06errpre\x94h>\x8c\x12site_number_offset\x94Kgu\x8c\x06tile_3\x94}\x94(\x8c\x06errpre\x94\x8c\x11wt-plasmid-231024\x94\x8c\x12site_number_offset\x94K\xceuuu\x8c\x04rule\x94\x8c\x11dms_tile_analysis\x94\x8c\x0fbench_iteration\x94N\x8c\tscriptdir\x94\x8cK/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab\x94ub.'); from snakemake.logging import logger; logger.printshellcmds = False; import os; os.chdir(r'/fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab');
 ######## snakemake preamble end #########
 
 ```
@@ -25,9 +25,12 @@ from dms_tools2 import AAS
 from dms_tools2.plot import COLOR_BLIND_PALETTE_GRAY as CBPALETTE
 print(f"Using dms_tools2 {dms_tools2.__version__}")
 
-from IPython.display import display, HTML, IFrame
-def pdf(url):
-    return HTML('<embed src="%s" type="application/pdf" width="100%%" height="600px" />' % url)
+from IPython.display import display, HTML
+from pdf2image import convert_from_path
+def showPDF(pdf_path, page_number=0):
+    images = convert_from_path(pdf_path, dpi=300, first_page=page_number+1, last_page=page_number+1)
+    image = images[0]
+    display(image)
 ```
 
     Using dms_tools2 2.6.10
@@ -37,25 +40,25 @@ Run notebook from `snakemake`. Initialize parameters from the pipeline.
 
 
 ```python
-# try: 
-ncpus = snakemake.threads
-refseqfile = snakemake.input.amplicon
-samplelist = snakemake.input.samplelist
-alignspecsfile = snakemake.input.alignspecs
-resultsdir = snakemake.output.resultsdir
-errpre = snakemake.params.errpre
-site_number_offset = snakemake.params.site_number_offset
-use_existing = 'no'
-# except NameError:
-#     # Test locally on tile 1
-#     ncpus = 4
-#     refseqfile = "data/tile_1_amplicon.fasta"
-#     samplelist = "data/tile_1_samplelist.csv"
-#     alignspecsfile ="data/tile_1_subamplicon_alignspecs.txt"
-#     resultsdir = "results/tile_1"
-#     errpre = "wt-plasmid-231024"
-#     site_number_offset = 0
-#     use_existing = 'no'
+try: 
+    ncpus = snakemake.threads
+    refseqfile = snakemake.input.amplicon
+    samplelist = snakemake.input.samplelist
+    alignspecsfile = snakemake.input.alignspecs
+    resultsdir = snakemake.output.resultsdir
+    errpre = snakemake.params.errpre
+    site_number_offset = snakemake.params.site_number_offset
+    use_existing = 'no'
+except NameError:
+    # Test locally on tile 1
+    ncpus = 4
+    refseqfile = "data/tile_1_amplicon.fasta"
+    samplelist = "data/tile_1_samplelist.csv"
+    alignspecsfile ="data/tile_1_subamplicon_alignspecs.txt"
+    resultsdir = "results/tile_1"
+    errpre = "wt-plasmid-231024"
+    site_number_offset = 0
+    use_existing = 'no'
 
 print(f"Using {ncpus} cores\n")
 print(f"Amplicon: {refseqfile}\n")
@@ -265,51 +268,39 @@ print(f"Plots prefix is {bcsubamp_plot_prefix}")
 
 
 ```python
-IFrame(bcsubamp_plot_prefix + 'readstats.pdf', width=800, height=350)
+showPDF(bcsubamp_plot_prefix + 'readstats.pdf')
 ```
 
 
-
-
-
-<iframe
-    width="800"
-    height="350"
-    src="results/tile_2/codoncounts/summary_readstats.pdf"
-    frameborder="0"
-    allowfullscreen
-
-></iframe>
-
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_19_0.png)
+    
 
 
 #### Barcode fate
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'bcstats.pdf')
+showPDF(bcsubamp_plot_prefix + 'bcstats.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_bcstats.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_21_0.png)
+    
 
 
 ### Number of reads per barcode
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'readsperbc.pdf')
+showPDF(bcsubamp_plot_prefix + 'readsperbc.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_readsperbc.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_23_0.png)
+    
 
 
 ### Read depth across the gene
@@ -318,14 +309,13 @@ Note that the numbering is with respect to the tile, not the reference.
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'depth.pdf')
+showPDF(bcsubamp_plot_prefix + 'depth.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_depth.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_25_0.png)
+    
 
 
 ### Mutation frequencies across the gene
@@ -334,14 +324,13 @@ As expected, the library plasmids have higher mutation rates than the wildtype c
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'mutfreq.pdf')
+showPDF(bcsubamp_plot_prefix + 'mutfreq.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_mutfreq.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_27_0.png)
+    
 
 
 ### Overall per-codon mutation rate averages
@@ -350,42 +339,39 @@ We'd expect that stop mutations and nonsynonymous mutations—most of which are 
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'codonmuttypes.pdf')
+showPDF(bcsubamp_plot_prefix + 'codonmuttypes.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_codonmuttypes.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_29_0.png)
+    
 
 
 We have single and multi-nucleotide changes in the libraries, although the single nucleotide changes are perhaps over-represented:
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'codonntchanges.pdf')
+showPDF(bcsubamp_plot_prefix + 'codonntchanges.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_codonntchanges.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_31_0.png)
+    
 
 
 Here are the frequencies of different types of mutations among single-nucleotide codon changes. We are checking for evidence of oxidative damage, which leads to `C->A` or `G->T` mutations:
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'singlentchanges.pdf')
+showPDF(bcsubamp_plot_prefix + 'singlentchanges.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_singlentchanges.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_33_0.png)
+    
 
 
 ### Mutation sampling
@@ -394,14 +380,13 @@ We want to see that most possible mutations are sampled very well in the plasmid
 
 
 ```python
-pdf(bcsubamp_plot_prefix + 'cumulmutcounts.pdf')
+showPDF(bcsubamp_plot_prefix + 'cumulmutcounts.pdf')
 ```
 
 
-
-
-<embed src="results/tile_2/codoncounts/summary_cumulmutcounts.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_35_0.png)
+    
 
 
 ## Re-number sites
@@ -594,14 +579,13 @@ Look at correlation among the amino-acid preferences for the individual librarie
 
 
 ```python
-pdf(os.path.join(prefsdir, 'summary_prefscorr.pdf'))
+showPDF(os.path.join(prefsdir, 'summary_prefscorr.pdf'))
 ```
 
 
-
-
-<embed src="results/tile_2/prefs/summary_prefscorr.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_51_0.png)
+    
 
 
 Amino-acid preferences for **all** samples, and for each condition separately:
@@ -683,14 +667,13 @@ for selection, prefs_csv in prefs_files.items():
 
 
 ```python
-pdf(logoplot)
+showPDF(logoplot)
 ```
 
 
-
-
-<embed src="results/tile_2/logoplots/virus_prefs.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_56_0.png)
+    
 
 
 ### Mutation Effect
@@ -750,14 +733,13 @@ for selection, muteffects_csv in muteffects_files.items():
 
 
 ```python
-pdf(logoplot)
+showPDF(logoplot)
 ```
 
 
-
-
-<embed src="results/tile_2/logoplots/virus_muteffects.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_61_0.png)
+    
 
 
 ## Functional effects of mutations of viral growth with stop codons
@@ -860,14 +842,13 @@ for selection, prefs_csv in prefs_withStops_files.items():
 
 
 ```python
-pdf(logoplot)
+showPDF(logoplot)
 ```
 
 
-
-
-<embed src="results/tile_2/logoplots_withStops/virus_prefs.pdf" type="application/pdf" width="100%" height="600px" />
-
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_68_0.png)
+    
 
 
 Repeat converting the amino-acid preferences into mutational effects, now including stop codons. Then make logo plots as above.
@@ -921,17 +902,11 @@ for selection, muteffects_withStops_csv in muteffects_withStops_files.items():
 
 
 ```python
-pdf(logoplot)
+showPDF(logoplot)
 ```
 
 
+    
+![png](dms_tile_2_analysis_files/dms_tile_2_analysis_71_0.png)
+    
 
-
-<embed src="results/tile_2/logoplots_withStops/virus_muteffects.pdf" type="application/pdf" width="100%" height="600px" />
-
-
-
-
-```python
-
-```

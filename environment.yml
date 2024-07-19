@@ -8,6 +8,7 @@ dependencies:
   - snakemake
   - jupyterlab
   - pip
+  - poppler # pdf2image dependency
   - pip:
     - dms_tools2==2.6.10
     - dmslogo==0.6.2
@@ -16,5 +17,6 @@ dependencies:
     - numpy==1.19.5
     - PyPDF2<3.0
     - altair
-    - dms_variants
+    - dms_variantsc
     - pandas
+    - pdf2image # convert dms_tools pdfs to images

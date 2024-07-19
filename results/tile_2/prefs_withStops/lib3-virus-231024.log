@@ -1,8 +1,8 @@
-2024-07-18 16:56:03,814 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 10:36:51,364 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-18 16:56:03,815 - INFO - Progress is being logged to results/tile_2/prefs_withStops/lib3-virus-231024.log
-2024-07-18 16:56:03,852 - INFO - Version information:
-	Time and date: Thu Jul 18 16:56:03 2024
+2024-07-19 10:36:51,364 - INFO - Progress is being logged to results/tile_2/prefs_withStops/lib3-virus-231024.log
+2024-07-19 10:36:51,400 - INFO - Version information:
+	Time and date: Fri Jul 19 10:36:51 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-18 16:56:03,853 - INFO - Parsed the following arguments:
+2024-07-19 10:36:51,400 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/prefs_withStops
 	ncpus = 1
 	use_existing = no
@@ -38,12 +38,12 @@
 	name = lib3-virus-231024
 	err = ['wt-plasmid-231024', 'wt-virus-231024']
 
-2024-07-18 16:56:03,855 - INFO - Reading pre-selection counts from results/tile_2/renumbered_codoncounts/lib3-plasmid-231024_codoncounts.csv
-2024-07-18 16:56:03,861 - INFO - Reading post-selection counts from results/tile_2/renumbered_codoncounts/lib3-virus-231024_codoncounts.csv
-2024-07-18 16:56:03,867 - INFO - Reading pre-selection error-control counts from pre
-2024-07-18 16:56:03,872 - INFO - Reading post-selection error-control counts from post
-2024-07-18 16:56:03,885 - INFO - Read counts for 103 sites.
-2024-07-18 16:56:03,885 - INFO - Here are sites and wildtype identities:
+2024-07-19 10:36:51,401 - INFO - Reading pre-selection counts from results/tile_2/renumbered_codoncounts/lib3-plasmid-231024_codoncounts.csv
+2024-07-19 10:36:51,408 - INFO - Reading post-selection counts from results/tile_2/renumbered_codoncounts/lib3-virus-231024_codoncounts.csv
+2024-07-19 10:36:51,413 - INFO - Reading pre-selection error-control counts from pre
+2024-07-19 10:36:51,417 - INFO - Reading post-selection error-control counts from post
+2024-07-19 10:36:51,428 - INFO - Read counts for 103 sites.
+2024-07-19 10:36:51,428 - INFO - Here are sites and wildtype identities:
 	104	CTG
 	105	ATG
 	106	GCC
@@ -148,6 +148,6 @@
 	205	CAG
 	206	GAC
 
-2024-07-18 16:56:03,885 - INFO - Computing preferences as normalized enrichment ratios...
-2024-07-18 16:56:04,317 - INFO - Writing preferences to results/tile_2/prefs_withStops/lib3-virus-231024_prefs.csv
-2024-07-18 16:56:04,325 - INFO - Successful completion of dms2_prefs
+2024-07-19 10:36:51,428 - INFO - Computing preferences as normalized enrichment ratios...
+2024-07-19 10:36:51,857 - INFO - Writing preferences to results/tile_2/prefs_withStops/lib3-virus-231024_prefs.csv
+2024-07-19 10:36:51,863 - INFO - Successful completion of dms2_prefs

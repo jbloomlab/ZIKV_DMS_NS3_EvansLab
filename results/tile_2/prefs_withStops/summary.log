@@ -1,8 +1,8 @@
-2024-07-18 16:55:59,909 - INFO - Beginning execution of dms2_batch_prefs in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 10:36:47,969 - INFO - Beginning execution of dms2_batch_prefs in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-18 16:55:59,909 - INFO - Progress is being logged to results/tile_2/prefs_withStops/summary.log
-2024-07-18 16:55:59,949 - INFO - Version information:
-	Time and date: Thu Jul 18 16:55:59 2024
+2024-07-19 10:36:47,969 - INFO - Progress is being logged to results/tile_2/prefs_withStops/summary.log
+2024-07-19 10:36:48,006 - INFO - Version information:
+	Time and date: Fri Jul 19 10:36:47 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-18 16:55:59,949 - INFO - Parsed the following arguments:
+2024-07-19 10:36:48,006 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/prefs_withStops
 	ncpus = 4
 	use_existing = no
@@ -38,19 +38,19 @@
 	no_corr = False
 	no_avg = False
 
-2024-07-18 16:55:59,995 - INFO - Parsing info from results/tile_2/prefs/batch.csv
-2024-07-18 16:56:00,004 - INFO - Read the following sample information:
+2024-07-19 10:36:48,008 - INFO - Parsing info from results/tile_2/prefs/batch.csv
+2024-07-19 10:36:48,017 - INFO - Read the following sample information:
 name,selection,library,pre,post,date,errpre,errpost
 lib1-virus-231024,virus,lib1,lib1-plasmid-231024,lib1-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
 lib2-virus-231024,virus,lib2,lib2-plasmid-231024,lib2-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
 lib3-virus-231024,virus,lib3,lib3-plasmid-231024,lib3-virus-231024,231024,wt-plasmid-231024,wt-virus-231024
 
 
-2024-07-18 16:56:00,004 - INFO - Running dms2_prefs on all samples...
-2024-07-18 16:56:04,751 - INFO - Completed runs of dms2_prefs.
+2024-07-19 10:36:48,017 - INFO - Running dms2_prefs on all samples...
+2024-07-19 10:36:52,244 - INFO - Completed runs of dms2_prefs.
 
-2024-07-18 16:56:04,862 - INFO - Plotting correlations to results/tile_2/prefs_withStops/summary_prefscorr.pdf
+2024-07-19 10:36:52,251 - INFO - Plotting correlations to results/tile_2/prefs_withStops/summary_prefscorr.pdf
 
-2024-07-18 16:56:05,683 - INFO - Writing average preferences to results/tile_2/prefs_withStops/summary_avgprefs.csv
+2024-07-19 10:36:53,278 - INFO - Writing average preferences to results/tile_2/prefs_withStops/summary_avgprefs.csv
 
-2024-07-18 16:56:05,703 - INFO - Successful completion of dms2_batch_prefs
+2024-07-19 10:36:53,304 - INFO - Successful completion of dms2_batch_prefs
