@@ -1,29 +1,29 @@
-2023-10-25 11:26:21,708 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2024-07-18 16:55:54,026 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 11:26:21,708 - INFO - Progress is being logged to results/tile_2/logoplots/virus.log
-2023-10-25 11:26:21,744 - INFO - Version information:
-	Time and date: Wed Oct 25 11:26:21 2023
-	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
-	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+2024-07-18 16:55:54,026 - INFO - Progress is being logged to results/tile_2/logoplots/virus.log
+2024-07-18 16:55:54,062 - INFO - Version information:
+	Time and date: Thu Jul 18 16:55:54 2024
+	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
+	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
-	Bio version: 1.79
+	Bio version: 1.83
 	pandas version: 0.25.3
 	numpy version: 1.19.5
-	IPython version: 8.4.0
+	IPython version: 8.12.2
 	jupyter version: 1.0.0
 	matplotlib version: 3.2.2
 	plotnine version: 0.6.0
-	natsort version: 8.2.0
+	natsort version: 8.4.0
 	pystan version: 2.19.1.1
 	scipy version: 1.6.0
 	seaborn version: 0.12.2
 	phydmslib version: 2.4.1
-	statsmodels version: 0.11.1
+	statsmodels version: 0.13.5
 	rpy2 cannot be imported
-	regex version: 2.5.135
+	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2023-10-25 11:26:21,744 - INFO - Parsed the following arguments:
+2024-07-18 16:55:54,062 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/logoplots
 	ncpus = -1
 	use_existing = no
@@ -54,13 +54,13 @@
 	ignore_extracols = no
 	sepline = yes
 
-2023-10-25 11:26:21,746 - INFO - Reading muteffects from file results/tile_2/muteffects/virus_muteffects.csv...
-2023-10-25 11:26:21,754 - INFO - Read data for 103 sites.
+2024-07-18 16:55:54,064 - INFO - Reading muteffects from file results/tile_2/muteffects/virus_muteffects.csv...
+2024-07-18 16:55:54,071 - INFO - Read data for 103 sites.
 
-2023-10-25 11:26:21,774 - INFO - Reading overlay for wildtype from results/tile_2/logoplots/wt_overlay.csv...
-2023-10-25 11:26:21,778 - INFO - Read overlay for 103 sites.
+2024-07-18 16:55:54,092 - INFO - Reading overlay for wildtype from results/tile_2/logoplots/wt_overlay.csv...
+2024-07-18 16:55:54,095 - INFO - Read overlay for 103 sites.
 
-2023-10-25 11:26:21,778 - INFO - Making logo plot results/tile_2/logoplots/virus_muteffects.pdf...
-2023-10-25 11:26:23,467 - INFO - Successfully created logo plot.
+2024-07-18 16:55:54,095 - INFO - Making logo plot results/tile_2/logoplots/virus_muteffects.pdf...
+2024-07-18 16:55:55,832 - INFO - Successfully created logo plot.
 
-2023-10-25 11:26:23,468 - INFO - Successful completion of dms2_logoplot
+2024-07-18 16:55:55,832 - INFO - Successful completion of dms2_logoplot

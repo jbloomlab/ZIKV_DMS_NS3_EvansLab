@@ -1,10 +1,8 @@
+.*
+!.git*
 t*
 _*
 *.out
-
+env/
 data/.*
 results/*/.*
-
-.*
-!.gitignore
-

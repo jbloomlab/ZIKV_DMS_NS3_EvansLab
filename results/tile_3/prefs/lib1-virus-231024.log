@@ -1,31 +1,31 @@
-2023-10-25 11:29:39,589 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2024-07-18 16:53:42,908 - INFO - Beginning execution of dms2_prefs in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 11:29:39,589 - INFO - Progress is being logged to results/tile_3/prefs/lib1-virus-231024.log
-2023-10-25 11:29:39,629 - INFO - Version information:
-	Time and date: Wed Oct 25 11:29:39 2023
-	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
-	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+2024-07-18 16:53:42,908 - INFO - Progress is being logged to results/tile_3/prefs/lib1-virus-231024.log
+2024-07-18 16:53:42,946 - INFO - Version information:
+	Time and date: Thu Jul 18 16:53:42 2024
+	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
+	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
-	Bio version: 1.79
+	Bio version: 1.83
 	pandas version: 0.25.3
 	numpy version: 1.19.5
-	IPython version: 8.4.0
+	IPython version: 8.12.2
 	jupyter version: 1.0.0
 	matplotlib version: 3.2.2
 	plotnine version: 0.6.0
-	natsort version: 8.2.0
+	natsort version: 8.4.0
 	pystan version: 2.19.1.1
 	scipy version: 1.6.0
 	seaborn version: 0.12.2
 	phydmslib version: 2.4.1
-	statsmodels version: 0.11.1
+	statsmodels version: 0.13.5
 	rpy2 cannot be imported
-	regex version: 2.5.135
+	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2023-10-25 11:29:39,629 - INFO - Parsed the following arguments:
+2024-07-18 16:53:42,946 - INFO - Parsed the following arguments:
 	outdir = results/tile_3/prefs
-	ncpus = 18
+	ncpus = 2
 	use_existing = no
 	method = ratio
 	indir = results/tile_3/renumbered_codoncounts
@@ -38,12 +38,12 @@
 	name = lib1-virus-231024
 	err = ['wt-plasmid-231024', 'wt-virus-231024']
 
-2023-10-25 11:29:39,631 - INFO - Reading pre-selection counts from results/tile_3/renumbered_codoncounts/lib1-plasmid-231024_codoncounts.csv
-2023-10-25 11:29:39,638 - INFO - Reading post-selection counts from results/tile_3/renumbered_codoncounts/lib1-virus-231024_codoncounts.csv
-2023-10-25 11:29:39,645 - INFO - Reading pre-selection error-control counts from pre
-2023-10-25 11:29:39,650 - INFO - Reading post-selection error-control counts from post
-2023-10-25 11:29:39,662 - INFO - Read counts for 102 sites.
-2023-10-25 11:29:39,662 - INFO - Here are sites and wildtype identities:
+2024-07-18 16:53:42,948 - INFO - Reading pre-selection counts from results/tile_3/renumbered_codoncounts/lib1-plasmid-231024_codoncounts.csv
+2024-07-18 16:53:42,956 - INFO - Reading post-selection counts from results/tile_3/renumbered_codoncounts/lib1-virus-231024_codoncounts.csv
+2024-07-18 16:53:42,962 - INFO - Reading pre-selection error-control counts from pre
+2024-07-18 16:53:42,967 - INFO - Reading post-selection error-control counts from post
+2024-07-18 16:53:42,980 - INFO - Read counts for 102 sites.
+2024-07-18 16:53:42,981 - INFO - Here are sites and wildtype identities:
 	207	TTG
 	208	GTG
 	209	TCA
@@ -147,6 +147,6 @@
 	307	GTT
 	308	GAA
 
-2023-10-25 11:29:39,662 - INFO - Computing preferences as normalized enrichment ratios...
-2023-10-25 11:29:39,968 - INFO - Writing preferences to results/tile_3/prefs/lib1-virus-231024_prefs.csv
-2023-10-25 11:29:39,975 - INFO - Successful completion of dms2_prefs
+2024-07-18 16:53:42,981 - INFO - Computing preferences as normalized enrichment ratios...
+2024-07-18 16:53:43,407 - INFO - Writing preferences to results/tile_3/prefs/lib1-virus-231024_prefs.csv
+2024-07-18 16:53:43,415 - INFO - Successful completion of dms2_prefs

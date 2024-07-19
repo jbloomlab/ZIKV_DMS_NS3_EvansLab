@@ -1,29 +1,29 @@
-2023-10-25 11:27:00,933 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/ckikawa/2023/ZIKV_DMS_NS3_EvansLab
+2024-07-18 16:56:36,045 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2023-10-25 11:27:00,933 - INFO - Progress is being logged to results/tile_1/codoncounts/wt-virus-231024.log
-2023-10-25 11:27:00,973 - INFO - Version information:
-	Time and date: Wed Oct 25 11:27:00 2023
-	Platform: Linux-4.15.0-192-generic-x86_64-with-glibc2.10
-	Python version: 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:18)  [GCC 10.3.0]
+2024-07-18 16:56:36,045 - INFO - Progress is being logged to results/tile_1/codoncounts/wt-virus-231024.log
+2024-07-18 16:56:36,086 - INFO - Version information:
+	Time and date: Thu Jul 18 16:56:36 2024
+	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
+	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
-	Bio version: 1.79
+	Bio version: 1.83
 	pandas version: 0.25.3
 	numpy version: 1.19.5
-	IPython version: 8.4.0
+	IPython version: 8.12.2
 	jupyter version: 1.0.0
 	matplotlib version: 3.2.2
 	plotnine version: 0.6.0
-	natsort version: 8.2.0
+	natsort version: 8.4.0
 	pystan version: 2.19.1.1
 	scipy version: 1.6.0
 	seaborn version: 0.12.2
 	phydmslib version: 2.4.1
-	statsmodels version: 0.11.1
+	statsmodels version: 0.13.5
 	rpy2 cannot be imported
-	regex version: 2.5.135
+	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2023-10-25 11:27:00,973 - INFO - Parsed the following arguments:
+2024-07-18 16:56:36,086 - INFO - Parsed the following arguments:
 	outdir = results/tile_1/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,19 +49,19 @@
 	name = wt-virus-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_WT_S4_R1_001.fastq.gz']
 
-2023-10-25 11:27:00,985 - INFO - Read refseq of 309 codons from data/tile_1_amplicon.fasta
-2023-10-25 11:27:00,987 - INFO - Reads are in these FASTQ pairs:
+2024-07-18 16:56:36,208 - INFO - Read refseq of 309 codons from data/tile_1_amplicon.fasta
+2024-07-18 16:56:36,210 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_WT_S4_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_WT_S4_R2_001.fastq.gz
 
-2023-10-25 11:27:00,988 - INFO - Now parsing read pairs...
-2023-10-25 11:27:06,723 - INFO - Reads parsed so far: 500000
-2023-10-25 11:27:10,286 - INFO - Parsed 849103 reads, found 370159 unique barcodes.
-2023-10-25 11:27:10,288 - INFO - Summary stats on reads:
+2024-07-18 16:56:36,210 - INFO - Now parsing read pairs...
+2024-07-18 16:56:41,914 - INFO - Reads parsed so far: 500000
+2024-07-18 16:56:45,497 - INFO - Parsed 849103 reads, found 370159 unique barcodes.
+2024-07-18 16:56:45,501 - INFO - Summary stats on reads:
   total  fail filter  low Q barcode
  849103        48025          73600
-2023-10-25 11:27:10,289 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_readstats.csv
+2024-07-18 16:56:45,501 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_readstats.csv
 
-2023-10-25 11:27:10,383 - INFO - Number of reads per barcode:
+2024-07-18 16:56:45,599 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            170926
@@ -79,15 +79,15 @@ number of reads
 13                                1
 15                                1
 1647                              1
-2023-10-25 11:27:10,383 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_readsperbc.csv
+2024-07-18 16:56:45,599 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_readsperbc.csv
 
-2023-10-25 11:27:10,387 - INFO - Examining the 370159 barcodes to build and align subamplicons...
-2023-10-25 11:27:18,897 - INFO - Barcodes examined so far: 200000
-2023-10-25 11:27:23,528 - INFO - Examined all barcodes. Summary stats:
+2024-07-18 16:56:45,602 - INFO - Examining the 370159 barcodes to build and align subamplicons...
+2024-07-18 16:56:55,263 - INFO - Barcodes examined so far: 200000
+2024-07-18 16:57:00,476 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  370159         170926          13672   185561
-2023-10-25 11:27:23,528 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_bcstats.csv
+2024-07-18 16:57:00,477 - INFO - Writing these stats to results/tile_1/codoncounts/wt-virus-231024_bcstats.csv
 
-2023-10-25 11:27:23,546 - INFO - Writing the counts of each codon identity at each site to results/tile_1/codoncounts/wt-virus-231024_codoncounts.csv
+2024-07-18 16:57:00,492 - INFO - Writing the counts of each codon identity at each site to results/tile_1/codoncounts/wt-virus-231024_codoncounts.csv
 
-2023-10-25 11:27:23,555 - INFO - Successful completion of dms2_bcsubamp
+2024-07-18 16:57:00,503 - INFO - Successful completion of dms2_bcsubamp

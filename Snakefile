@@ -23,6 +23,8 @@ rule all:
                tile=config['tiles']),
         expand("results/summary/dms_{tile}_analysis.md",
                tile=config['tiles']),
+        expand("results/summary/dms_{tile}_analysis.html",
+            tile=config['tiles']),
 
 #### ------------------------ Rules ------------------------ ####
 
@@ -66,3 +68,16 @@ rule jupnb_to_md:
             {input.notebook}
         """
     
+rule jupnb_to_html:
+    """Convert Jupyter notebook to HTML format."""
+    input: notebook="results/notebooks/{notebook}.ipynb"
+    output: html="results/summary/{notebook}.html"
+    params: outdir=lambda wildcards, output: os.path.dirname(output.html)
+    conda: 'environment.yml'
+    shell: 
+        """
+        jupyter nbconvert \
+            --output-dir {params.outdir} \
+            --to html \
+            {input.notebook}
+        """
