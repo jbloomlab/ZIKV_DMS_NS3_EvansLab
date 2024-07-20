@@ -1,8 +1,8 @@
-2024-07-19 10:35:44,795 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 11:34:37,094 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-19 10:35:44,796 - INFO - Progress is being logged to results/tile_2/codoncounts/wt-plasmid-231024.log
-2024-07-19 10:35:44,832 - INFO - Version information:
-	Time and date: Fri Jul 19 10:35:44 2024
+2024-07-19 11:34:37,094 - INFO - Progress is being logged to results/tile_2/codoncounts/wt-plasmid-231024.log
+2024-07-19 11:34:37,128 - INFO - Version information:
+	Time and date: Fri Jul 19 11:34:37 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-19 10:35:44,833 - INFO - Parsed the following arguments:
+2024-07-19 11:34:37,128 - INFO - Parsed the following arguments:
 	outdir = results/tile_2/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,19 +49,19 @@
 	name = wt-plasmid-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_WT_S16_R1_001.fastq.gz']
 
-2024-07-19 10:35:44,845 - INFO - Read refseq of 309 codons from data/tile_2_amplicon.fasta
-2024-07-19 10:35:44,847 - INFO - Reads are in these FASTQ pairs:
+2024-07-19 11:34:37,140 - INFO - Read refseq of 309 codons from data/tile_2_amplicon.fasta
+2024-07-19 11:34:37,142 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_WT_S16_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_2_WT_S16_R2_001.fastq.gz
 
-2024-07-19 10:35:44,847 - INFO - Now parsing read pairs...
-2024-07-19 10:35:50,670 - INFO - Reads parsed so far: 500000
-2024-07-19 10:35:54,939 - INFO - Parsed 893455 reads, found 555607 unique barcodes.
-2024-07-19 10:35:54,942 - INFO - Summary stats on reads:
+2024-07-19 11:34:37,143 - INFO - Now parsing read pairs...
+2024-07-19 11:34:42,953 - INFO - Reads parsed so far: 500000
+2024-07-19 11:34:47,252 - INFO - Parsed 893455 reads, found 555607 unique barcodes.
+2024-07-19 11:34:47,254 - INFO - Summary stats on reads:
   total  fail filter  low Q barcode
  893455        57870          90401
-2024-07-19 10:35:54,942 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_readstats.csv
+2024-07-19 11:34:47,255 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_readstats.csv
 
-2024-07-19 10:35:55,073 - INFO - Number of reads per barcode:
+2024-07-19 11:34:47,389 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            408201
@@ -85,16 +85,16 @@ number of reads
 40                                1
 48                                1
 339                               1
-2024-07-19 10:35:55,074 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_readsperbc.csv
+2024-07-19 11:34:47,389 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_readsperbc.csv
 
-2024-07-19 10:35:55,077 - INFO - Examining the 555607 barcodes to build and align subamplicons...
-2024-07-19 10:36:01,816 - INFO - Barcodes examined so far: 200000
-2024-07-19 10:36:07,016 - INFO - Barcodes examined so far: 400000
-2024-07-19 10:36:09,397 - INFO - Examined all barcodes. Summary stats:
+2024-07-19 11:34:47,392 - INFO - Examining the 555607 barcodes to build and align subamplicons...
+2024-07-19 11:34:54,042 - INFO - Barcodes examined so far: 200000
+2024-07-19 11:34:59,136 - INFO - Barcodes examined so far: 400000
+2024-07-19 11:35:01,511 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  555607         408201          13560   133846
-2024-07-19 10:36:09,397 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_bcstats.csv
+2024-07-19 11:35:01,512 - INFO - Writing these stats to results/tile_2/codoncounts/wt-plasmid-231024_bcstats.csv
 
-2024-07-19 10:36:09,410 - INFO - Writing the counts of each codon identity at each site to results/tile_2/codoncounts/wt-plasmid-231024_codoncounts.csv
+2024-07-19 11:35:01,530 - INFO - Writing the counts of each codon identity at each site to results/tile_2/codoncounts/wt-plasmid-231024_codoncounts.csv
 
-2024-07-19 10:36:09,419 - INFO - Successful completion of dms2_bcsubamp
+2024-07-19 11:35:01,540 - INFO - Successful completion of dms2_bcsubamp

@@ -19,8 +19,8 @@ wildcard_constraints:
 
 rule all:
     input:
-        expand("results/{tile}",
-               tile=config['tiles']),
+        "results/summary/all_tiles_effects_and_preferences.csv",
+        "results/summary/all_tiles_effects_and_preferences_with_stops.csv",
         expand("results/summary/dms_{tile}_analysis.md",
                tile=config['tiles']),
         expand("results/summary/dms_{tile}_analysis.html",
@@ -52,6 +52,16 @@ rule dms_tile_analysis:
     conda: 'environment.yml'
     log: notebook='results/notebooks/dms_{tile}_analysis.ipynb'
     notebook: 'dms_tile_analysis.py.ipynb'
+
+
+rule join_all_tiles:
+    input:  expand("results/{tile}", tile=config['tiles'])
+    output: without_stops_csv = "results/summary/all_tiles_effects_and_preferences.csv",
+            with_stops_csv = "results/summary/all_tiles_effects_and_preferences_with_stops.csv",
+    params: tiles = config['tiles']
+    conda: 'environment.yml'
+    log: notebook='results/notebooks/combine_all_tiles.ipynb'
+    notebook: 'combine_all_tiles.ipynb'
 
 
 rule jupnb_to_md:

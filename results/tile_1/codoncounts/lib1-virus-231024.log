@@ -1,8 +1,8 @@
-2024-07-19 11:11:09,550 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 11:36:13,253 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-19 11:11:09,550 - INFO - Progress is being logged to results/tile_1/codoncounts/lib1-virus-231024.log
-2024-07-19 11:11:09,613 - INFO - Version information:
-	Time and date: Fri Jul 19 11:11:09 2024
+2024-07-19 11:36:13,253 - INFO - Progress is being logged to results/tile_1/codoncounts/lib1-virus-231024.log
+2024-07-19 11:36:13,291 - INFO - Version information:
+	Time and date: Fri Jul 19 11:36:13 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-19 11:11:09,613 - INFO - Parsed the following arguments:
+2024-07-19 11:36:13,291 - INFO - Parsed the following arguments:
 	outdir = results/tile_1/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,24 +49,19 @@
 	name = lib1-virus-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_Lib_1_S1_R1_001.fastq.gz']
 
-2024-07-19 11:11:09,616 - INFO - Removing existing file results/tile_1/codoncounts/lib1-virus-231024_codoncounts.csv
-2024-07-19 11:11:09,622 - INFO - Removing existing file results/tile_1/codoncounts/lib1-virus-231024_readstats.csv
-2024-07-19 11:11:09,629 - INFO - Removing existing file results/tile_1/codoncounts/lib1-virus-231024_readsperbc.csv
-2024-07-19 11:11:09,635 - INFO - Removing existing file results/tile_1/codoncounts/lib1-virus-231024_bcstats.csv
-2024-07-19 11:11:09,643 - INFO - Removing existing file results/tile_1/codoncounts/lib1-virus-231024_bcinfo.csv.gz
-2024-07-19 11:11:09,666 - INFO - Read refseq of 309 codons from data/tile_1_amplicon.fasta
-2024-07-19 11:11:09,744 - INFO - Reads are in these FASTQ pairs:
+2024-07-19 11:36:13,302 - INFO - Read refseq of 309 codons from data/tile_1_amplicon.fasta
+2024-07-19 11:36:13,307 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_Lib_1_S1_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_1_Lib_1_S1_R2_001.fastq.gz
 
-2024-07-19 11:11:09,744 - INFO - Now parsing read pairs...
-2024-07-19 11:11:19,960 - INFO - Reads parsed so far: 500000
-2024-07-19 11:11:27,639 - INFO - Parsed 917977 reads, found 390811 unique barcodes.
-2024-07-19 11:11:27,643 - INFO - Summary stats on reads:
+2024-07-19 11:36:13,308 - INFO - Now parsing read pairs...
+2024-07-19 11:36:18,968 - INFO - Reads parsed so far: 500000
+2024-07-19 11:36:23,181 - INFO - Parsed 917977 reads, found 390811 unique barcodes.
+2024-07-19 11:36:23,185 - INFO - Summary stats on reads:
   total  fail filter  low Q barcode
  917977        50447          80709
-2024-07-19 11:11:27,643 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_readstats.csv
+2024-07-19 11:36:23,185 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_readstats.csv
 
-2024-07-19 11:11:27,934 - INFO - Number of reads per barcode:
+2024-07-19 11:36:23,287 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            175345
@@ -82,15 +77,15 @@ number of reads
 11                               12
 12                                5
 606                               1
-2024-07-19 11:11:27,934 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_readsperbc.csv
+2024-07-19 11:36:23,287 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_readsperbc.csv
 
-2024-07-19 11:11:27,938 - INFO - Examining the 390811 barcodes to build and align subamplicons...
-2024-07-19 11:11:46,993 - INFO - Barcodes examined so far: 200000
-2024-07-19 11:11:57,963 - INFO - Examined all barcodes. Summary stats:
+2024-07-19 11:36:23,289 - INFO - Examining the 390811 barcodes to build and align subamplicons...
+2024-07-19 11:36:34,048 - INFO - Barcodes examined so far: 200000
+2024-07-19 11:36:40,575 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  390811         175345          15863   199603
-2024-07-19 11:11:57,963 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_bcstats.csv
+2024-07-19 11:36:40,576 - INFO - Writing these stats to results/tile_1/codoncounts/lib1-virus-231024_bcstats.csv
 
-2024-07-19 11:11:57,982 - INFO - Writing the counts of each codon identity at each site to results/tile_1/codoncounts/lib1-virus-231024_codoncounts.csv
+2024-07-19 11:36:40,589 - INFO - Writing the counts of each codon identity at each site to results/tile_1/codoncounts/lib1-virus-231024_codoncounts.csv
 
-2024-07-19 11:11:58,002 - INFO - Successful completion of dms2_bcsubamp
+2024-07-19 11:36:40,599 - INFO - Successful completion of dms2_bcsubamp

@@ -1,8 +1,8 @@
-2024-07-19 10:32:59,119 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2024-07-19 11:31:33,840 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-19 10:32:59,119 - INFO - Progress is being logged to results/tile_3/codoncounts/wt-virus-231024.log
-2024-07-19 10:32:59,155 - INFO - Version information:
-	Time and date: Fri Jul 19 10:32:59 2024
+2024-07-19 11:31:33,840 - INFO - Progress is being logged to results/tile_3/codoncounts/wt-virus-231024.log
+2024-07-19 11:31:33,881 - INFO - Version information:
+	Time and date: Fri Jul 19 11:31:33 2024
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-19 10:32:59,155 - INFO - Parsed the following arguments:
+2024-07-19 11:31:33,882 - INFO - Parsed the following arguments:
 	outdir = results/tile_3/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,20 +49,20 @@
 	name = wt-virus-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_3_WT_S20_R1_001.fastq.gz']
 
-2024-07-19 10:32:59,168 - INFO - Read refseq of 306 codons from data/tile_3_amplicon.fasta
-2024-07-19 10:32:59,305 - INFO - Reads are in these FASTQ pairs:
+2024-07-19 11:31:33,941 - INFO - Read refseq of 306 codons from data/tile_3_amplicon.fasta
+2024-07-19 11:31:34,131 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_3_WT_S20_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Virus_Tile_3_WT_S20_R2_001.fastq.gz
 
-2024-07-19 10:32:59,305 - INFO - Now parsing read pairs...
-2024-07-19 10:33:05,152 - INFO - Reads parsed so far: 500000
-2024-07-19 10:33:10,035 - INFO - Reads parsed so far: 1000000
-2024-07-19 10:33:10,429 - INFO - Parsed 1044135 reads, found 399438 unique barcodes.
-2024-07-19 10:33:10,432 - INFO - Summary stats on reads:
+2024-07-19 11:31:34,131 - INFO - Now parsing read pairs...
+2024-07-19 11:31:39,740 - INFO - Reads parsed so far: 500000
+2024-07-19 11:31:44,651 - INFO - Reads parsed so far: 1000000
+2024-07-19 11:31:45,048 - INFO - Parsed 1044135 reads, found 399438 unique barcodes.
+2024-07-19 11:31:45,050 - INFO - Summary stats on reads:
    total  fail filter  low Q barcode
  1044135        65434          96974
-2024-07-19 10:33:10,432 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_readstats.csv
+2024-07-19 11:31:45,050 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_readstats.csv
 
-2024-07-19 10:33:10,533 - INFO - Number of reads per barcode:
+2024-07-19 11:31:45,146 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            161234
@@ -82,15 +82,15 @@ number of reads
 15                                1
 16                                1
 24                                1
-2024-07-19 10:33:10,533 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_readsperbc.csv
+2024-07-19 11:31:45,146 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_readsperbc.csv
 
-2024-07-19 10:33:10,535 - INFO - Examining the 399438 barcodes to build and align subamplicons...
-2024-07-19 10:33:21,457 - INFO - Barcodes examined so far: 200000
-2024-07-19 10:33:28,583 - INFO - Examined all barcodes. Summary stats:
+2024-07-19 11:31:45,149 - INFO - Examining the 399438 barcodes to build and align subamplicons...
+2024-07-19 11:31:56,063 - INFO - Barcodes examined so far: 200000
+2024-07-19 11:32:03,295 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  399438         161234          14871   223333
-2024-07-19 10:33:28,583 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_bcstats.csv
+2024-07-19 11:32:03,295 - INFO - Writing these stats to results/tile_3/codoncounts/wt-virus-231024_bcstats.csv
 
-2024-07-19 10:33:28,596 - INFO - Writing the counts of each codon identity at each site to results/tile_3/codoncounts/wt-virus-231024_codoncounts.csv
+2024-07-19 11:32:03,307 - INFO - Writing the counts of each codon identity at each site to results/tile_3/codoncounts/wt-virus-231024_codoncounts.csv
 
-2024-07-19 10:33:28,605 - INFO - Successful completion of dms2_bcsubamp
+2024-07-19 11:32:03,316 - INFO - Successful completion of dms2_bcsubamp
