@@ -54,7 +54,7 @@ rule dms_tile_analysis:
     notebook: 'dms_tile_analysis.py.ipynb'
 
 
-rule join_all_tiles:
+rule combine_all_tiles:
     input:  expand("results/{tile}", tile=config['tiles'])
     output: without_stops_csv = "results/summary/all_tiles_effects_and_preferences.csv",
             with_stops_csv = "results/summary/all_tiles_effects_and_preferences_with_stops.csv",
