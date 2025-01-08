@@ -51,7 +51,7 @@ rule dms_tile_analysis:
     threads: config['max_cpus']
     conda: 'environment.yml'
     log: notebook='results/notebooks/dms_{tile}_analysis.ipynb'
-    notebook: 'dms_tile_analysis.py.ipynb'
+    notebook: 'notebooks/dms_tile_analysis.py.ipynb'
 
 
 rule combine_all_tiles:
@@ -61,7 +61,7 @@ rule combine_all_tiles:
     params: tiles = config['tiles']
     conda: 'environment.yml'
     log: notebook='results/notebooks/combine_all_tiles.ipynb'
-    notebook: 'combine_all_tiles.ipynb'
+    notebook: 'notebooks/combine_all_tiles.ipynb'
 
 
 rule jupnb_to_md:
