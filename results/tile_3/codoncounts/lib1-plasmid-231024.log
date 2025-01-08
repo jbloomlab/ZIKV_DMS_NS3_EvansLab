@@ -1,8 +1,8 @@
-2024-07-19 11:31:33,839 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
+2025-01-07 17:52:30,276 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/whannon/2024/ZIKV_DMS_NS3_EvansLab
 
-2024-07-19 11:31:33,839 - INFO - Progress is being logged to results/tile_3/codoncounts/lib1-plasmid-231024.log
-2024-07-19 11:31:33,881 - INFO - Version information:
-	Time and date: Fri Jul 19 11:31:33 2024
+2025-01-07 17:52:30,278 - INFO - Progress is being logged to results/tile_3/codoncounts/lib1-plasmid-231024.log
+2025-01-07 17:52:30,316 - INFO - Version information:
+	Time and date: Tue Jan  7 17:52:30 2025
 	Platform: Linux-4.15.0-213-generic-x86_64-with-glibc2.10
 	Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35)  [GCC 12.3.0]
 	dms_tools2 version: 2.6.10
@@ -23,7 +23,7 @@
 	regex version: 2.5.145
 	umi_tools version: 1.1.4
 
-2024-07-19 11:31:33,881 - INFO - Parsed the following arguments:
+2025-01-07 17:52:30,317 - INFO - Parsed the following arguments:
 	outdir = results/tile_3/codoncounts
 	ncpus = -1
 	use_existing = no
@@ -49,20 +49,20 @@
 	name = lib1-plasmid-231024
 	R1 = ['/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_3_Lib_1_S21_R1_001.fastq.gz']
 
-2024-07-19 11:31:33,941 - INFO - Read refseq of 306 codons from data/tile_3_amplicon.fasta
-2024-07-19 11:31:34,138 - INFO - Reads are in these FASTQ pairs:
+2025-01-07 17:52:30,329 - INFO - Read refseq of 306 codons from data/tile_3_amplicon.fasta
+2025-01-07 17:52:30,376 - INFO - Reads are in these FASTQ pairs:
 	/shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_3_Lib_1_S21_R1_001.fastq.gz and /shared/ngs/illumina/ckikawa/231017_M00492_0174_000000000-L7FYB/Unaligned/Project_ckikawa/Plasmid_Tile_3_Lib_1_S21_R2_001.fastq.gz
 
-2024-07-19 11:31:34,138 - INFO - Now parsing read pairs...
-2024-07-19 11:31:39,866 - INFO - Reads parsed so far: 500000
-2024-07-19 11:31:44,782 - INFO - Reads parsed so far: 1000000
-2024-07-19 11:31:45,315 - INFO - Parsed 1058675 reads, found 436040 unique barcodes.
-2024-07-19 11:31:45,318 - INFO - Summary stats on reads:
+2025-01-07 17:52:30,377 - INFO - Now parsing read pairs...
+2025-01-07 17:52:36,236 - INFO - Reads parsed so far: 500000
+2025-01-07 17:52:41,231 - INFO - Reads parsed so far: 1000000
+2025-01-07 17:52:41,785 - INFO - Parsed 1058675 reads, found 436040 unique barcodes.
+2025-01-07 17:52:41,788 - INFO - Summary stats on reads:
    total  fail filter  low Q barcode
  1058675        66933          93218
-2024-07-19 11:31:45,318 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_readstats.csv
+2025-01-07 17:52:41,788 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_readstats.csv
 
-2024-07-19 11:31:45,422 - INFO - Number of reads per barcode:
+2025-01-07 17:52:41,903 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            195248
@@ -82,16 +82,16 @@ number of reads
 16                                1
 17                                1
 19                                1
-2024-07-19 11:31:45,422 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_readsperbc.csv
+2025-01-07 17:52:41,903 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_readsperbc.csv
 
-2024-07-19 11:31:45,425 - INFO - Examining the 436040 barcodes to build and align subamplicons...
-2024-07-19 11:31:56,452 - INFO - Barcodes examined so far: 200000
-2024-07-19 11:32:04,392 - INFO - Barcodes examined so far: 400000
-2024-07-19 11:32:05,008 - INFO - Examined all barcodes. Summary stats:
+2025-01-07 17:52:41,906 - INFO - Examining the 436040 barcodes to build and align subamplicons...
+2025-01-07 17:52:52,670 - INFO - Barcodes examined so far: 200000
+2025-01-07 17:53:00,291 - INFO - Barcodes examined so far: 400000
+2025-01-07 17:53:00,877 - INFO - Examined all barcodes. Summary stats:
   total  too few reads  not alignable  aligned
  436040         195248          33550   207242
-2024-07-19 11:32:05,008 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_bcstats.csv
+2025-01-07 17:53:00,878 - INFO - Writing these stats to results/tile_3/codoncounts/lib1-plasmid-231024_bcstats.csv
 
-2024-07-19 11:32:05,018 - INFO - Writing the counts of each codon identity at each site to results/tile_3/codoncounts/lib1-plasmid-231024_codoncounts.csv
+2025-01-07 17:53:00,893 - INFO - Writing the counts of each codon identity at each site to results/tile_3/codoncounts/lib1-plasmid-231024_codoncounts.csv
 
-2024-07-19 11:32:05,031 - INFO - Successful completion of dms2_bcsubamp
+2025-01-07 17:53:00,905 - INFO - Successful completion of dms2_bcsubamp
