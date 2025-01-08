@@ -1,17 +1,18 @@
 # Deep mutational scanning of ZIKV NS2B/NS3 protease
 
-Experiments by **Blake Richardson** and **Matt Evans**
-Analysis by **Caroline Kikawa** and **Will Hannon**
+Experiments by **Blake Richardson** and **Matt Evans**. Analysis by **Caroline Kikawa** with help from **Will Hannon**
 
 ## Analysis
 
-A deep mutational scanning library was created in 3 discrete non-overlapping 'tiles' across the ZIKV NS2B/NS3 protease. The resulting pool of virus particles expressing these variants was selected by passaging on cells. The counts of each variant in the plasmid library were compared to their counts after passaging using a pipeline adapted from [a `Snakemake` pipeline]() written by Jesse Bloom and David Bacsik. The pipeline takes deep sequencing reads as input and processes them using [`dms_tools2`](https://jbloomlab.github.io/dms_tools2/). The **amino acid preferences** or `prefs` are calculated based on count of variants pre- and post- selection by passaging on cells. We then calculate **mutational effects** or `muteffects` for each variant by taking the log ratio of the variant mutation versus wild-type.
+A deep mutational scanning library was created in 3 discrete non-overlapping 'tiles' across the ZIKV NS2B/NS3 protease. The resulting pool of virus particles expressing these variants was selected by passaging on cells. The counts of each variant in the plasmid library were compared to their counts after passaging using a pipeline adapted from a `Snakemake` pipeline written by Jesse Bloom and David Bacsik. The pipeline takes deep sequencing reads as input and processes them using [`dms_tools2`](https://jbloomlab.github.io/dms_tools2/). The **amino acid preferences** or `prefs` are calculated based on count of variants pre- and post- selection by passaging on cells. We then calculate **mutational effects** or `muteffects` for each variant by taking the log ratio of the variant mutation versus wild-type.
 
 ## Results
 
 All results are located in [results/](results), although large files are not tracked in the GitHub repo. Results files are sub-divided by tile and analysis (e.g., [results/tile_1/prefs](results/tile_1/prefs), [results/tile_1/muteffects](results/tile_1/muteffects), etc).
 
 See [results/summary/](results/summary/) for markdown summaries of the analysis for each tile (e.g., [results/summary/dms_tile_1_analysis.md](results/summary/dms_tile_1_analysis.md), etc).
+
+To view the data on 3D protein structures of the NS3/NS2B protease, download [this file](/data/dms-viz/output/ZIKV-NS2B-NS3-DMS.json) and upload it to [`dms-viz`](https://dms-viz.github.io/v0/). 
 
 ## Running analysis
 
@@ -21,6 +22,7 @@ If you have not already created this environment, build it from [environment.yml
 ```bash
 conda env create -f environment.yml
 ```
+
 Then activate the environment with:
 
 ```bash
